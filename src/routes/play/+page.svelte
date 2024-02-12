@@ -4,6 +4,7 @@
 	import '@maptiler/sdk/dist/maptiler-sdk.css';
 	import { browser } from '$app/environment';
 	import { Routes } from '$lib/RS/RS.js';
+	import { base } from '$app/paths';
 
 	let map: Map;
 	let mapContainer: HTMLElement;
@@ -41,7 +42,7 @@
 
 		map.addSource(current_map_route, {
 			type: 'geojson',
-			data: `/rs/routes/${route.prefix}_${route.type}_${route.ref}_${route.id}.geojson`
+			data: `${base}/rs/routes/${route.prefix}_${route.type}_${route.ref}_${route.id}.geojson`
 		});
 
 		map.addLayer({
