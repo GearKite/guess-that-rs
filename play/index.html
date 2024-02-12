@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="../favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Check & apply theme here to avoid FOUC -->
+	<script>
+		localStorage.theme === 'dark' ||
+			(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+			? document.documentElement.classList.add('dark')
+			: document.documentElement.classList.remove('dark');
+	</script>
+
+	
+		<link href="../_app/immutable/assets/0.CJXjTU3O.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/3.GLvu2Qof.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.CRDIp3gq.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/entry.CVSCiF4Z.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/scheduler.CxZ5aOjC.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/paths.CM5iBkj7.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.RGYvlTJB.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.DkDEufJ0.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.BFQEtPCg.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/3.CiraY8Oi.js">
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">  <nav class="bg-gray-800 dark:bg-gray-900"><div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8"><div class="relative flex h-16 items-center justify-between"><div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start" data-svelte-h="svelte-si9y3n"><a href=".." class="text-slate-100 text-2xl font-bold">Guess That RS</a> <div class="hidden sm:ml-6 sm:block"><div class="flex space-x-4"> <a href=".." class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a> <a href="../play" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Play</a></div></div></div> <div><input checked type="checkbox" id="theme-toggle" class="svelte-rbc0ky"> <label for="theme-toggle" class="svelte-rbc0ky"></label> </div></div></div></nav> <div class="container-full m-3 svelte-1y07vfo"><div class="flex svelte-1y07vfo"><div class="map w-3/5 svelte-1y07vfo"></div> <div class="ml-3 w-2/5 svelte-1y07vfo"><div class="w-half items-center svelte-1y07vfo"><h2 class="text-2xl svelte-1y07vfo" data-svelte-h="svelte-u416la">Select route</h2> <div class="m-3 svelte-1y07vfo"><button class="btn-transport-routes active svelte-1y07vfo" data-svelte-h="svelte-qrqx10">Bus</button> <button class="btn-transport-routes svelte-1y07vfo" data-svelte-h="svelte-1j70s6p">Tram</button> <button class="btn-transport-routes svelte-1y07vfo" data-svelte-h="svelte-1cfm0le">Trolleybus</button></div> <div id="panel-bus-routes" class="transport-route-panel svelte-1y07vfo"><button id="route-bus-2" class="btn-bus btn-select-route svelte-1y07vfo">2</button><button id="route-bus-3" class="btn-bus btn-select-route svelte-1y07vfo">3</button><button id="route-bus-4" class="btn-bus btn-select-route svelte-1y07vfo">4</button><button id="route-bus-5T" class="btn-bus btn-select-route svelte-1y07vfo">5T</button><button id="route-bus-6" class="btn-bus btn-select-route svelte-1y07vfo">6</button><button id="route-bus-7" class="btn-bus btn-select-route svelte-1y07vfo">7</button><button id="route-bus-8" class="btn-bus btn-select-route svelte-1y07vfo">8</button><button id="route-bus-9" class="btn-bus btn-select-route svelte-1y07vfo">9</button><button id="route-bus-10" class="btn-bus btn-select-route svelte-1y07vfo">10</button><button id="route-bus-11" class="btn-bus btn-select-route svelte-1y07vfo">11</button><button id="route-bus-12" class="btn-bus btn-select-route svelte-1y07vfo">12</button><button id="route-bus-13" class="btn-bus btn-select-route svelte-1y07vfo">13</button><button id="route-bus-15" class="btn-bus btn-select-route svelte-1y07vfo">15</button><button id="route-bus-16" class="btn-bus btn-select-route svelte-1y07vfo">16</button><button id="route-bus-18" class="btn-bus btn-select-route svelte-1y07vfo">18</button><button id="route-bus-20" class="btn-bus btn-select-route svelte-1y07vfo">20</button><button id="route-bus-21" class="btn-bus btn-select-route svelte-1y07vfo">21</button><button id="route-bus-22" class="btn-bus btn-select-route svelte-1y07vfo">22</button><button id="route-bus-23" class="btn-bus btn-select-route svelte-1y07vfo">23</button><button id="route-bus-24" class="btn-bus btn-select-route svelte-1y07vfo">24</button><button id="route-bus-25" class="btn-bus btn-select-route svelte-1y07vfo">25</button><button id="route-bus-26" class="btn-bus btn-select-route svelte-1y07vfo">26</button><button id="route-bus-28" class="btn-bus btn-select-route svelte-1y07vfo">28</button><button id="route-bus-29" class="btn-bus btn-select-route svelte-1y07vfo">29</button><button id="route-bus-30" class="btn-bus btn-select-route svelte-1y07vfo">30</button><button id="route-bus-31" class="btn-bus btn-select-route svelte-1y07vfo">31</button><button id="route-bus-32" class="btn-bus btn-select-route svelte-1y07vfo">32</button><button id="route-bus-33" class="btn-bus btn-select-route svelte-1y07vfo">33</button><button id="route-bus-34" class="btn-bus btn-select-route svelte-1y07vfo">34</button><button id="route-bus-36" class="btn-bus btn-select-route svelte-1y07vfo">36</button><button id="route-bus-37" class="btn-bus btn-select-route svelte-1y07vfo">37</button><button id="route-bus-38" class="btn-bus btn-select-route svelte-1y07vfo">38</button><button id="route-bus-39" class="btn-bus btn-select-route svelte-1y07vfo">39</button><button id="route-bus-41" class="btn-bus btn-select-route svelte-1y07vfo">41</button><button id="route-bus-43" class="btn-bus btn-select-route svelte-1y07vfo">43</button><button id="route-bus-44" class="btn-bus btn-select-route svelte-1y07vfo">44</button><button id="route-bus-46" class="btn-bus btn-select-route svelte-1y07vfo">46</button><button id="route-bus-47" class="btn-bus btn-select-route svelte-1y07vfo">47</button><button id="route-bus-48" class="btn-bus btn-select-route svelte-1y07vfo">48</button><button id="route-bus-49" class="btn-bus btn-select-route svelte-1y07vfo">49</button><button id="route-bus-50" class="btn-bus btn-select-route svelte-1y07vfo">50</button><button id="route-bus-51" class="btn-bus btn-select-route svelte-1y07vfo">51</button><button id="route-bus-52" class="btn-bus btn-select-route svelte-1y07vfo">52</button><button id="route-bus-53" class="btn-bus btn-select-route svelte-1y07vfo">53</button><button id="route-bus-54" class="btn-bus btn-select-route svelte-1y07vfo">54</button><button id="route-bus-55" class="btn-bus btn-select-route svelte-1y07vfo">55</button><button id="route-bus-56" class="btn-bus btn-select-route svelte-1y07vfo">56</button><button id="route-bus-57" class="btn-bus btn-select-route svelte-1y07vfo">57</button><button id="route-bus-58" class="btn-bus btn-select-route svelte-1y07vfo">58</button><button id="route-bus-60" class="btn-bus btn-select-route svelte-1y07vfo">60</button><button id="route-bus-63" class="btn-bus btn-select-route svelte-1y07vfo">63</button></div> <div id="panel-tram-routes" class="transport-route-panel hidden svelte-1y07vfo"><button id="route-tram-1" class="btn-tram btn-select-route svelte-1y07vfo">1</button><button id="route-tram-1" class="btn-tram btn-select-route svelte-1y07vfo">1</button><button id="route-tram-2" class="btn-tram btn-select-route svelte-1y07vfo">2</button><button id="route-tram-5" class="btn-tram btn-select-route svelte-1y07vfo">5</button><button id="route-tram-7" class="btn-tram btn-select-route svelte-1y07vfo">7</button><button id="route-tram-10" class="btn-tram btn-select-route svelte-1y07vfo">10</button><button id="route-tram-11" class="btn-tram btn-select-route svelte-1y07vfo">11</button></div> <div id="panel-trol-routes" class="transport-route-panel hidden svelte-1y07vfo"><button id="route-trol-1" class="btn-trol btn-select-route svelte-1y07vfo">1</button><button id="route-trol-3" class="btn-trol btn-select-route svelte-1y07vfo">3</button><button id="route-trol-3" class="btn-trol btn-select-route svelte-1y07vfo">3</button><button id="route-trol-4" class="btn-trol btn-select-route svelte-1y07vfo">4</button><button id="route-trol-5" class="btn-trol btn-select-route svelte-1y07vfo">5</button><button id="route-trol-9" class="btn-trol btn-select-route svelte-1y07vfo">9</button><button id="route-trol-11" class="btn-trol btn-select-route svelte-1y07vfo">11</button><button id="route-trol-12" class="btn-trol btn-select-route svelte-1y07vfo">12</button><button id="route-trol-13" class="btn-trol btn-select-route svelte-1y07vfo">13</button><button id="route-trol-14" class="btn-trol btn-select-route svelte-1y07vfo">14</button><button id="route-trol-15" class="btn-trol btn-select-route svelte-1y07vfo">15</button><button id="route-trol-16" class="btn-trol btn-select-route svelte-1y07vfo">16</button><button id="route-trol-17" class="btn-trol btn-select-route svelte-1y07vfo">17</button><button id="route-trol-18" class="btn-trol btn-select-route svelte-1y07vfo">18</button><button id="route-trol-19" class="btn-trol btn-select-route svelte-1y07vfo">19</button><button id="route-trol-20" class="btn-trol btn-select-route svelte-1y07vfo">20</button><button id="route-trol-22" class="btn-trol btn-select-route svelte-1y07vfo">22</button><button id="route-trol-23" class="btn-trol btn-select-route svelte-1y07vfo">23</button><button id="route-trol-25" class="btn-trol btn-select-route svelte-1y07vfo">25</button><button id="route-trol-27" class="btn-trol btn-select-route svelte-1y07vfo">27</button><button id="route-trol-31" class="btn-trol btn-select-route svelte-1y07vfo">31</button><button id="route-trol-34" class="btn-trol btn-select-route svelte-1y07vfo">34</button><button id="route-trol-35" class="btn-trol btn-select-route svelte-1y07vfo">35</button></div> <button id="btn-guess" class="btn-primary mt-6 svelte-1y07vfo" data-svelte-h="svelte-kop2m6">Guess</button> <button id="btn-next" class="btn-secondary mt-6 svelte-1y07vfo" data-svelte-h="svelte-fusdj8">Next</button></div></div></div> </div> 
+			
+			<script>
+				{
+					__sveltekit_1cibajf = {
+						base: new URL("..", location).pathname.slice(0, -1),
+						assets: "/guess-that-rs"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("../_app/immutable/entry/start.CRDIp3gq.js"),
+						import("../_app/immutable/entry/app.RGYvlTJB.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 3],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+</body>
+
+</html>
